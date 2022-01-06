@@ -1,0 +1,14 @@
+.esBottomSection {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 3vw;
+  }
+  p {
+    font-weight: 600;
+    color: #4c5050;
+  }
+}

@@ -1,0 +1,23 @@
+.topSection {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  background-color: grey;
+  background-image: url(../../assets/nature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  .tsInner {
+    .main {
+      padding: 0px 4rem;
+
+      span {
+        font-size: 3vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.buttonSectionRadioButtons {
+  display: flex;
+  margin-top: 3rem;
+
+  .bottomSectionRadioButton {
+    margin: 0px 1rem;
+    padding: 8px 10px;
+    min-width: 140px;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}
+
+.activeLocation {
+  background-color: #23232e !important;
+  color: white !important;
+}
